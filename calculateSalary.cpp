@@ -2,9 +2,9 @@
  using namespace std;
  
  /*------------------------------
- workshop session2
+ cpp-workshop : session2
  problem : calculate salary of employee per month + tax
- written by Mr Nekouei
+ written by R.Nekouei
  --------------------------------*/
  
  int main() {	
@@ -42,7 +42,7 @@
 	if (total<=4000000 )
 		tax =0 ;
 	else if (total>4000000 && total<=8000000 )
-        tax=(total-4000000)*0.1;
+		tax=(total-4000000)*0.1;
 	else 
 		tax= (total-8000000)*0.15 + (4000000)*0.1;
 
