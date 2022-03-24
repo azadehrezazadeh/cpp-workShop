@@ -37,7 +37,7 @@
 	cout<<"total per week : "<<total<<endl;
 	
 	total= total*4;	
-	cout<<"total: per month : "<<total <<endl;
+	cout<<"total: per month : "<< total <<endl;
 	
 	if (total<=4000000 )
 		tax =0 ;
